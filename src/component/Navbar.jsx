@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="logo">
         <Link
           to="/"
-          className="text-xl font-semibold hover:text-violet-600 duration-300"
+          className="text-xl font-semibold hover:text-violet-700 duration-300"
         >
           Envelop
         </Link>
@@ -16,13 +16,13 @@ const Navbar = () => {
         <div className="flex gap-5">
           <Link
             to="/login"
-            className="hover:text-violet-600 hover:underline underline-offset-2 duration-300"
+            className="hover:text-violet-700 hover:underline underline-offset-2 duration-300"
           >
             Login
           </Link>
           <Link
             to="/register"
-            className="hover:text-violet-600 hover:underline underline-offset-2 duration-300"
+            className="hover:text-violet-700 hover:underline underline-offset-2 duration-300"
           >
             Register
           </Link>
