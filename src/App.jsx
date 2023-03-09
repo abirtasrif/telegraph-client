@@ -3,13 +3,13 @@ import { Routes, Route, Navigate } from "react-router-dom";
 import Chat from "./pages/Chat";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Navbar from "./component/Navbar";
-import Footer from "./component/Footer";
+import Navbar from "./components/Navbar";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
     <div className="app container mx-auto">
-      <div className="upper-content min-h-screen">
+      <div className="upperlevel-contents min-h-screen">
         <Navbar />
         <Routes>
           <Route path="/" element={<Chat />} />
